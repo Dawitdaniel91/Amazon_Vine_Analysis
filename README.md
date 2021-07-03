@@ -36,7 +36,7 @@ In the project, I have access to approximately 50 datasets. Each one contains re
 
 #### The customers_table DataFrame
 
-##### The customers_table DataFrame 
+##### The customers_table DataFrame
 To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_code.ipynb file and follow the steps below to aggregate the reviews by customer_id.
 
 . Use the groupby() function on the customer_id column of the DataFrame you created in Step 6.
