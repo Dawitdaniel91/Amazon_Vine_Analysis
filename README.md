@@ -88,13 +88,13 @@ The final vine_table DataFrame should look like this:
 ![image](https://user-images.githubusercontent.com/80365882/124343386-d5d88b00-db7f-11eb-9877-65462c4c2cec.png)
 
 
-# SUMMARY 
+## SUMMARY 
 
 . The Furniture product have lower reviews results than Vine participants becouse 99.7% of all 5-star reviews are non-Vine.
 
 . overall of all 5 Star reviews are also the same as the Furnitu becouse all are form vine participants.
 
-# RECOMMENDATIONS:
+## RECOMMENDATIONS:
 
 . The Amazon Vine Analysis provide a favorable dataset on the 5-star rating
 
