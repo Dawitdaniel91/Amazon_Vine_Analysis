@@ -81,13 +81,24 @@ The final vine_table DataFrame should look like this:
 
 ##### Summary Table1
 
-![image](https://user-images.githubusercontent.com/80365882/124343115-f43d8700-db7d-11eb-9f6a-123f4d55fe89.png)
+![image](https://user-images.githubusercontent.com/80365882/124343314-69f62280-db7f-11eb-95c2-e79b5f48e93a.png)
 
 ##### Summary Table2
 
-![image](https://user-images.githubusercontent.com/80365882/124343134-2c44ca00-db7e-11eb-9250-894caf5f8a5b.png)
+![image](https://user-images.githubusercontent.com/80365882/124343386-d5d88b00-db7f-11eb-9877-65462c4c2cec.png)
 
 
+## Summary 
+
+. The Furniture product have lower reviews results than Vine participants becouse 99.7% of all 5-star reviews are non-Vine.
+
+. overall of all 5 Star reviews are also the same as the Furnitu becouse all are form vine participants.
+
+## Recommendations:
+
+. The Amazon Vine Analysis provide a favorable dataset on the 5-star rating
+
+. Most of data isn't Vine reviews over specific products, that we could minimize the resluts and create a different dataset on just Vine products.
 
 
  
