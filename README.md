@@ -17,6 +17,9 @@ In the project, I have access to approximately 50 datasets. Each one contains re
  ## Deliverable 1: Perform ETL on Amazon Product Reviews
  
  #### Deliverable Requirements:
+ 
+ ##### Steps
+ 
  1. pick a dataset to analyze from the following Amazon Review datasets:
  
  ![image](https://user-images.githubusercontent.com/80365882/124341672-cdc61e80-db72-11eb-97de-d8e9e77c1304.png)
@@ -26,5 +29,29 @@ In the project, I have access to approximately 50 datasets. Each one contains re
  4. Download the challenge_schema.sql file
  5. In pgAdmin, run a new query to create the tables 
  6. Download the Amazon_Reviews_ETL_starter_code.ipynb file, then upload the file as a Google Colab Notebook, and rename it Amazon_Reviews_ETL.
+ 7. First extract one of the review datasets, then create a new DataFrame
+ 8. Next, follow the steps below to transform the dataset into four DataFrames that will match the schema in the pgAdmin tables:
+
+### Results
+
+#### The customers_table DataFrame
+
+The customers_table DataFrame To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_code.ipynb file and follow the steps below to aggregate the reviews by customer_id.
+
+. Use the groupby() function on the customer_id column of the DataFrame you created in Step 6.
+
+. Count all the customer ids using the agg() function by chaining it to the groupby() function. 
+
+. After you use this function, a new column will be created, count(customer_id).
+
+. Rename the count(customer_id) column using the withColumnRenamed() function so it matches the schema for the customers_table in pgAdmin.
+
+ The final customers_table DataFrame should look like this:
+ 
+ ![image](https://user-images.githubusercontent.com/80365882/124341850-44afe700-db74-11eb-9847-bd83e472fb3c.png)
+
+
+ 
+
  
  
