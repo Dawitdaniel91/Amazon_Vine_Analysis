@@ -36,7 +36,6 @@ In the project, I have access to approximately 50 datasets. Each one contains re
 
 #### The customers_table DataFrame
 
-##### The customers_table DataFrame
 To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_code.ipynb file and follow the steps below to aggregate the reviews by customer_id.
 
 . Use the groupby() function on the customer_id column of the DataFrame you created in Step 6.
@@ -50,6 +49,45 @@ To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_co
  The final customers_table DataFrame should look like this:
  
  ![image](https://user-images.githubusercontent.com/80365882/124341850-44afe700-db74-11eb-9847-bd83e472fb3c.png)
+ 
+ #### The products_table DataFrame
+ 
+The products_table DataFrame To create the products_table, use the select() function to select the product_id and product_title, then drop duplicates with the drop_duplicates() function to retrieve only unique product_ids. Refer to the code snippet provided in the Amazon_Reviews_ETL_starter_code.ipynb file for assistance.
+
+The final products_table DataFrame should look like this:
+
+![image](https://user-images.githubusercontent.com/80365882/124342004-78d7d780-db75-11eb-8abd-9816d59c6be0.png)
+
+#### The review_id_table DataFrame
+
+The review_id_table DataFrame To create the review_id_table, use the select() function to select the columns that are in the review_id_table in pgAdmin, and convert the review_date column to a date using the code snippet provided in the Amazon_Reviews_ETL_starter_code.ipynb file.
+
+The final review_id_table DataFrame should look like this:
+
+![image](https://user-images.githubusercontent.com/80365882/124342039-b472a180-db75-11eb-8f57-8db79167a265.png)
+
+#### The vine_table DataFrame
+
+The vine_table DataFrame To create the vine_table, use the select() function to select only the columns that are in the vine_table in pgAdmin.
+
+The final vine_table DataFrame should look like this:
+
+![image](https://user-images.githubusercontent.com/80365882/124342052-d10ed980-db75-11eb-8c6d-4a7d1cc2fdb5.png)
+
+
+## Deliverable 2: Determine Bias of Vine Reviews
+
+### Results
+
+##### Summary Table1
+
+![image](https://user-images.githubusercontent.com/80365882/124343115-f43d8700-db7d-11eb-9f6a-123f4d55fe89.png)
+
+##### Summary Table2
+
+![image](https://user-images.githubusercontent.com/80365882/124343134-2c44ca00-db7e-11eb-9250-894caf5f8a5b.png)
+
+
 
 
  
