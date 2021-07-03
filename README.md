@@ -94,11 +94,11 @@ The final vine_table DataFrame should look like this:
 
 . overall of all 5 Star reviews are also the same as the Furnitu becouse all are form vine participants.
 
-## REcommendations:
+## Recommendations:
 
 . The Amazon Vine Analysis provide a favorable dataset on the 5-star rating
 
-.Most of data isn't Vine reviews over specific products, that we could minimize the resluts and create a different dataset on just Vine products.
+. Most of data isn't Vine reviews over specific products, that we could minimize the resluts and create a different dataset on just Vine products.
 
 
  
